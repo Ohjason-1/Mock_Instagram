@@ -1,5 +1,31 @@
 # Mock_Instagram
 
+### Features
+
+- User Authentication: Complete email/password authentication flow with Firebase
+- Feed View: Dynamic scrolling feed of posts with like and comment functionality
+- Post Creation: Camera integration and post uploading with captions
+- Profile Management: View/edit profiles, follow/unfollow users
+- Real-time Notifications: Like, comment, and follow notifications
+- Explore Page: Discover and search for other users
+- Comments System: Add and view comments on posts
+
+### Technology Stack
+
+- Frontend: SwiftUI for modern declarative UI
+- Architecture: MVVM (Model-View-ViewModel) design pattern
+- Backend: Firebase
+  - Authentication for user management
+  - Cloud Firestore for database operations
+  - Firebase Storage for media storage
+- Image Handling: PhotosUI for media selection and Kingfisher for image caching
+
+### Architecture
+# The app follows the MVVM (Model-View-ViewModel) architecture:
+- Models: Represent data structures (User, Post, Comment, etc.)
+- Views: UI components built with SwiftUI
+- ViewModels: Handle business logic and data operations
+- Services: Manage data operations with Firebase
 
 ### System Design
 
@@ -30,69 +56,4 @@
      └───────────┘          └─────────┘
 ```
 
-## Getting Started
 
-### Prerequisites
-
-- Xcode 15.0+
-- iOS 17.0+
-- Swift 5.9+
-- CocoaPods or Swift Package Manager
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/mock-instagram.git
-   ```
-
-2. Install dependencies:
-   ```
-   cd mock-instagram
-   pod install
-   ```
-   
-   (or using Swift Package Manager through Xcode)
-
-3. Open the `.xcworkspace` file in Xcode
-
-4. Create a Firebase project and add your GoogleService-Info.plist
-
-5. Build and run the application
-
-## Features in Detail
-
-### Authentication
-
-The app uses Firebase Authentication for user management, with a complete registration and login flow.
-
-### Feed
-
-The feed displays posts from all users with like and comment functionality.
-
-### Profile
-
-Users can view their own profile or others' profiles, including:
-- Profile stats (followers, following, posts)
-- Grid view of posted images
-- Follow/unfollow functionality
-- Profile editing
-
-### Post Upload
-
-Users can select images from their library and upload posts with captions.
-
-### Notifications
-
-Real-time notifications for:
-- Likes on posts
-- Comments on posts
-- New followers
-
-## Future Enhancements
-
-- Direct messaging
-- Stories functionality
-- Reels/short video content
-- Enhanced search with hashtags
-- Location tagging for posts
