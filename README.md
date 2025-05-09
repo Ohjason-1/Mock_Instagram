@@ -21,7 +21,7 @@
 - Image Handling: PhotosUI for media selection and Kingfisher for image caching
 
 ### Architecture
-# The app follows the MVVM (Model-View-ViewModel) architecture:
+#### The app follows the MVVM (Model-View-ViewModel) architecture:
 - Models: Represent data structures (User, Post, Comment, etc.)
 - Views: UI components built with SwiftUI
 - ViewModels: Handle business logic and data operations
