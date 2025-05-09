@@ -54,7 +54,6 @@ struct CommentsView: View {
                     
                     Button {
                         Task { try await viewModel.uploadComment(commentText: commentText) }
-                        commentText = ""
                     } label: {
                         Text("Post")
                             .font(.subheadline)
