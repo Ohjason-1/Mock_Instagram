@@ -28,32 +28,8 @@
 - Services: Manage data operations with Firebase
 
 ### System Design
+<img width="691" alt="Screenshot 2025-05-08 at 11 29 46 PM" src="https://github.com/user-attachments/assets/4dd4ffbe-fe66-4494-b901-bed7c5c47edf" />
 
-```
-                    ┌─────────────┐
-                    │     App     │
-                    └──────┬──────┘
-                           │
-                    ┌──────▼──────┐
-                    │ ContentView │
-                    └──────┬──────┘
-                           │
-           ┌───────────────┴───────────────┐
-           │                               │
-   ┌───────▼───────┐               ┌───────▼───────┐
-   │  Login Flow   │               │   Main Flow   │
-   └───────┬───────┘               └───────┬───────┘
-           │                               │
-           │                     ┌─────────┼─────────┐
-  ┌────────▼─────────┐          │         │         │
-  │                  │    ┌─────▼─┐ ┌─────▼─┐ ┌─────▼─┐
-  │   AuthService    │    │ Feed  │ │Search │ │Upload │
-  │                  │    └───────┘ └───────┘ └───────┘
-  └────────┬─────────┘          │
-           │                ┌────▼────┐
-     ┌─────▼─────┐          │         │
-     │  Firebase │          │Services │
-     └───────────┘          └─────────┘
-```
+
 
 
