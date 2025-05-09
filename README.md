@@ -4,7 +4,6 @@
 
 ![Screenshot 2025-05-09 at 2 29 13 PM](https://github.com/user-attachments/assets/e50d09d2-e162-4aa0-aaed-a3e6c6b1c99b)
 
-
 ### Features
 
 - User Authentication: Complete email/password authentication flow with Firebase
@@ -32,8 +31,15 @@
 - ViewModels: Handle business logic and data operations
 - Services: Manage data operations with Firebase
 
+Description of each file based on the structure: [mock_insta_architecture.pdf](https://github.com/user-attachments/files/20129837/mock_insta_architecture.pdf)
+
+
+
 ### System Design
-<img width="691" alt="Screenshot 2025-05-08 at 11 29 46 PM" src="https://github.com/user-attachments/assets/4dd4ffbe-fe66-4494-b901-bed7c5c47edf" />
+
+![Screenshot 2025-05-09 at 4 57 43 PM](https://github.com/user-attachments/assets/338db6ba-1c53-48c1-b45b-283379ccaba4)
+
+
 
 
 
